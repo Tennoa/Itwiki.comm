@@ -46,7 +46,7 @@ main {
     margin-bottom: 20px;
 }
 
-section {
+nav {
     margin-bottom: 20px;
 }
 
@@ -106,4 +106,21 @@ h1 h2 h3 h4 h5 h6 {
 dd {
     padding-left: 20px;
     width: calc(25% - 32px);
+}
+
+section {
+    list-style-type: none;
+    color: #AAAAAA;
+    background: #171717;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+;    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    max-width: 80%;
+    margin: auto;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
