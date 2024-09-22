@@ -48,7 +48,7 @@ main {
     background: #171717;
     margin-top: 12px;
     margin-bottom: 20px;
-    border-radius: ;
+    border-radius: 20px;
 }
 
 nav {
@@ -68,11 +68,11 @@ ul {
 
 .uou {
 padding-left: 200px;
+padding-right: 200px;
 align-items: center;
 box-sizing: border-box;
 display: flex;
 height: 48;
-margin: 0 auto;
 background-color: #0D0D0D;
 color: white;
 border-bottom: 1px solid #373737; 
@@ -94,10 +94,10 @@ h1 h2 h3 h4 h5 h6 {
     list-style-type: none;
     color: #AAAAAA;
     background: #171717;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     display: flex;
     margin-block-start: 1em;
@@ -105,6 +105,7 @@ h1 h2 h3 h4 h5 h6 {
     unicode-bidi: isolate;
     max-width: 80%;
     margin: auto;
+    border-radius: 20px;
 
 }
    
@@ -128,4 +129,9 @@ section {
     margin: auto;
     padding-left: 20px;
     margin-bottom: 20px;
+    border-radius: 20px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
 }
