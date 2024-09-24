@@ -41,7 +41,6 @@
 						<li><a href="4.html"><b>Оперативная память</b></a></li>
 						<li><a href="5.html"><b>Система охлаждения</b></a></li>
 						<li><a href="6.html"><b>Блок питания</b></a></li>
-						<li><a href="7.html"><b>Прочие компоненты</b></a></li>
 					</p>
 			</section>
 
