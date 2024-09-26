@@ -1,9 +1,16 @@
 body {
+<<<<<<< HEAD
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #000000;
+=======
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+>>>>>>> 5b8946da339cbfb3bf8da287db0793c77525021d
 }
 
 nav {
@@ -62,8 +69,12 @@ ul {
 
 
 #white   {
+<<<<<<< HEAD
   color: white;
 
+=======
+    color: white;
+>>>>>>> 5b8946da339cbfb3bf8da287db0793c77525021d
 }
 
 .uou {
@@ -77,11 +88,13 @@ background-color: #0D0D0D;
 color: white;
 border-bottom: 1px solid #373737; 
 }
+<<<<<<< HEAD
 h2 h3 h4 h5 h6 {
   font-family: "Inter";
   color: white;
+=======
+>>>>>>> 5b8946da339cbfb3bf8da287db0793c77525021d
 
-}
 .line {
   border-bottom: 1px solid #373737; /* Параметры линии */
  }
@@ -160,5 +173,10 @@ p{
 font-family: "Comfortaa";
 }
 li{
+<<<<<<< HEAD
 font-family: "Comfortaa";
 }
+=======
+  font-family: "Comfortaa";
+}
+>>>>>>> 5b8946da339cbfb3bf8da287db0793c77525021d
