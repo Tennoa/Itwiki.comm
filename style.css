@@ -1,70 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
 }
 
 nav {
-    background: #171717;
-    color: #fff;
-    padding: 10px;  
-    text-align: center;
-    margin-bottom: 20px;
+  background: #171717;
+  color: #fff;
+  padding: 10px;  
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 12px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+  display: inline;
+  margin-right: 10px;
 }
 
 nav ul li a {
-    color: #AAAAAA;
-    text-decoration: none;
+  color: #AAAAAA;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-    
+  text-decoration: underline;
+  
 }
 
-.main2 {
-    padding: 20px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    max-width: 80%;
-    margin: auto;
-    background: #171717;
-    margin-top: 12px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    color: white;
-    
+main {
+  padding: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  max-width: 80%;
+  margin: auto;
+  background: #171717;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 nav {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 ul {
-    list-style-type: square;
-    margin-left: 20px;
+  list-style-type: square;
+  margin-left: 20px;
 }
 
 
 #white   {
-    color: white;
+  color: white;
 
 }
 
@@ -79,106 +77,88 @@ background-color: #0D0D0D;
 color: white;
 border-bottom: 1px solid #373737; 
 }
- h2 h3 h4 h5 h6 {
-    font-family: "Inter";
-    color: white;
+h2 h3 h4 h5 h6 {
+  font-family: "Inter";
+  color: white;
 
 }
 .line {
-    border-bottom: 1px solid #373737; /* Параметры линии */
-   }
- A {
-    text-decoration: none;
-    color: white;
+  border-bottom: 1px solid #373737; /* Параметры линии */
  }
+A {
+  text-decoration: none;
+  color: white;
+}
 
- footer {
-    list-style-type: none;
-    color: #AAAAAA;
-    background: #171717;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    text-align: center;
-    display: flex;
-    margin-block-start: 1em;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    max-width: 80%;
-    margin: auto;
-    border-radius: 20px;
+footer {
+  list-style-type: none;
+  color: #AAAAAA;
+  background: #171717;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 20px;
 
 }
-   
+ 
 dd {
-    padding-left: 20px;
-    width: calc(25% - 32px);
+  padding-left: 20px;
+  width: calc(25% - 32px);
 }
 
 section {
-    list-style-type: none;
-    color: #AAAAAA;
-    background: #171717;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
+  list-style-type: none;
+  color: #AAAAAA;
+  background: #171717;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
 ;    margin-block-start: 1em;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    max-width: 80%;
-    margin: auto;
-    padding-left: 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  max-width: 80%;
+  margin: auto;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 .logo {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 @font-face {
-  font-family: "PressStart2P";
-  src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf) format("truetype");
-  font-style: normal;
-  font-weight: normal;
+font-family: "PressStart2P";
+src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf) format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 h1{
-  font-family: "PressStart2P";
+font-family: "PressStart2P";
 }
 h2{
-  font-family: "PressStart2P";
+font-family: "PressStart2P";
 }
 h3{
-  font-family: "PressStart2P";
+font-family: "PressStart2P";
 }
 @font-face {
-  font-family: "Comfortaa";
-  src: url(fonts/Comfortaa/static/Comfortaa-Regular.ttf) format("truetype");
-  font-style: normal;
-  font-weight: normal;
+font-family: "Comfortaa";
+src: url(fonts/Comfortaa/static/Comfortaa-Regular.ttf) format("truetype");
+font-style: normal;
+font-weight: normal;
 }
 p{
-  font-family: "Comfortaa";
+font-family: "Comfortaa";
 }
 li{
-  font-family: "Comfortaa";
+font-family: "Comfortaa";
 }
-@media (max-width: 1200px){
-    .main2{
-       padding: 20px;
-        padding-left: 20px;
-        padding-top: 5px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        max-width: 80%;
-    }
-}
-
-@media (max-width: 992px){
-    .main2{
-        padding: 60px;
-        max-width: 100%; 
-    }
-}
-
