@@ -37,7 +37,7 @@ nav ul li a:hover {
     
 }
 
-main {
+.main2 {
     padding: 20px;
     padding-left: 20px;
     padding-top: 5px;
@@ -49,6 +49,8 @@ main {
     margin-top: 12px;
     margin-bottom: 20px;
     border-radius: 20px;
+    color: white;
+    
 }
 
 nav {
@@ -162,3 +164,21 @@ p{
 li{
   font-family: "Comfortaa";
 }
+@media (max-width: 1200px){
+    .main2{
+       padding: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 992px){
+    .main2{
+        padding: 60px;
+        max-width: 100%; 
+    }
+}
+
