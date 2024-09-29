@@ -36,19 +36,7 @@ nav ul li a:hover {
   
 }
 
-main {
-  padding: 20px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 20px;
-  padding-right: 20px;
-  max-width: 80%;
-  margin: auto;
-  background: #171717;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
+
 
 nav {
   margin-bottom: 20px;
@@ -82,30 +70,6 @@ border-bottom: 1px solid #373737;
 A {
   text-decoration: none;
   color: white;
-}
-
-footer {
-  list-style-type: none;
-  color: #AAAAAA;
-  background: #171717;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  text-align: center;
-  display: flex;
-  margin-block-start: 1em;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
-  max-width: 80%;
-  margin: auto;
-  border-radius: 20px;
-
-}
- 
-dd {
-  padding-left: 20px;
-  width: calc(25% - 32px);
 }
 
 section {
@@ -150,9 +114,78 @@ src: url(fonts/Comfortaa/static/Comfortaa-Regular.ttf) format("truetype");
 font-style: normal;
 font-weight: normal;
 }
+
 p{
 font-family: "Comfortaa";
 }
 li{
   font-family: "Comfortaa";
 }
+
+main {
+
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  max-width: 80%;
+  margin: auto;
+  background: #171717;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+@media (min-width: 0px) {
+  @media (max-width: 992px) {
+    main{
+    background: #302f2f;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    }
+    section{
+      max-width: 100%;
+      margin-bottom: 0px;
+      border-radius: 0px;
+    }
+    .uou{
+      padding-left: 83px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-right: 50px;
+      background-color: #1B1B1B;
+      font-size: 14px;
+    }
+      h1{
+      font-family: "PressStart2P";
+      font-size: 20px;
+      }
+      h2{
+      font-family: "PressStart2P";
+      font-size: 15px;
+      }
+      h3{
+      font-family: "PressStart2P";
+      font-size: 15px;}
+      h4{
+        font-family: "PressStart2P";
+        font-size: 15px;}
+      p{
+        font-family: "Comfortaa";
+        font-size: 15px;
+        }
+      li{
+          font-family: "Comfortaa";
+          font-size: 15px;
+        }
+      }
+    }
+    
+  
+
+  .op{
+    padding: 30px;
+    }
+    
